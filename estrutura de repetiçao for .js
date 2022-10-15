@@ -11,3 +11,4 @@ const stutends = [`Lucas`,`Marcelo`,`Talita`,`Leandro`]
 for (i = 0; i < stutends.length; i++){
     console.log(`${stutends[i]} Esta presente`)
 }
+
