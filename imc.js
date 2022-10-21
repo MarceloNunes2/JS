@@ -5,4 +5,4 @@ const dados = {
 }
 const res  = (dados.peso / dados.heigth)
 
-console.log(res)
+console.log(`O Imc de ${dados.nome} é ${res.toFixed(0)}`)
