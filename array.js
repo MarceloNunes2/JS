@@ -16,7 +16,7 @@ const number = [10,5,234,25,{
     }
 },"to locão"]
 
-console.log(number)
+
 
 
 const people = [{
@@ -52,3 +52,5 @@ const people = [{
         contry : "Brasil"
     }
 }]
+
+console.log(number,people)
