@@ -15,12 +15,14 @@ const students = [
     {Nome: `Steve `, age:21},
 
 ];      
-    let = allStrudetsAge = 0
-students.forEach((studets,index) => {        
+    // let = allStrudetsAge = 0
+students.forEach((studets,index) => {       
+    
+        console.log(studets)
 
-        {
-         console.log(`O aluno chama-se${studets.Nome}, ele tem ${studets.age} anos, e o numero dele na chamada é ${index}`)
-        }
+        // {
+        //  console.log(`O aluno chama-se${studets.Nome}, ele tem ${studets.age} anos, e o numero dele na chamada é ${index}`)
+        // }
 
 })
 
