@@ -8,10 +8,15 @@ const compras = [
     {nome: `laura`, idade :17, sexo:`Feminino`},
     {nome: `lite`, idade :10, sexo:`masculino`},
 ];
-
-compras.forEachr((compras) => {
+function compra()
+compras.forEach((nome,valor,primeiracompra) => {
     
-    console.log(compras)
-    
-    
+    if(primeiracompra){
+    if(valor > 1800){
+        console.log(`Senhor ${nome} sua compra foi de ${valor} e obtve um desconto de ${(valor - 0.10.toFixed(2))}`)
+    }else{
+        console.log(`Senhor ${nome} sua compra foi de ${valor} e não obteve desconto`)
+    }
+}
 })
+compras(`Lucas`,1900)
